@@ -1,0 +1,30 @@
+.Header {
+    border-bottom: solid rgb(196, 196, 196);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 70px;
+}
+
+.HeaderLink {
+    flex-wrap: wrap;
+    max-width: 100%;
+    font-size: 30px;
+    font-weight: bolder;
+    text-decoration: none;
+
+}
+
+.HeaderLink {
+    flex-wrap: wrap;
+    max-width: 100%;
+    font-size: 40px;
+    font-weight: bolder;
+    font-weight: normal;
+
+    color: #000000;
+}

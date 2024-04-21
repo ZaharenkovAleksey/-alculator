@@ -1,0 +1,47 @@
+.InterfaceCalc {
+    min-height: calc(100vh - 70px - 70px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+.InterfaceCalc input {
+    
+    margin-bottom: 15px;
+    padding: 10px;
+
+    border-bottom: solid rgb(196, 196, 196);
+    
+
+
+}
+
+::placeholder {
+    color: rgb(0, 0, 0);
+}
+
+.InterfaceCalc button {
+    flex-wrap: wrap;
+    max-width: 100%;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+
+    background: rgb(33, 167, 0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+
+}
+
+.InterfaceCalc p {
+    text-align: center;
+    font-size: 20px;
+}

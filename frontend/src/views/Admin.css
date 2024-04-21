@@ -1,0 +1,52 @@
+.Admin .content {
+    min-height: calc(100vh - 70px - 70px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+    flex-wrap: wrap;
+    
+}
+
+.Admin .content input, .Admin .content textarea {
+    width: 800px;
+    border-bottom: solid rgb(196, 196, 196);
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    outline: none;
+
+
+}
+
+.Admin .content textarea {
+        border-bottom: solid rgb(196, 196, 196);
+    background-color: rgb(255, 255, 255);
+    flex-wrap: wrap;
+    max-width: 100%;
+    min-height: 300px;
+    resize: vertical;
+}
+
+.Admin .content button {
+    flex-wrap: wrap;
+    max-width: 100%;
+    padding: 8px;
+    font-size: 20px;
+    border-style: none;
+    background-color: white;
+    color: rgb(33, 167, 0);
+    cursor: pointer;
+}
+
+.Admin .content p {
+    flex-wrap: wrap;
+    max-width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
