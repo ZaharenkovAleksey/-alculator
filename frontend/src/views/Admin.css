@@ -24,14 +24,6 @@
 
 }
 
-.Admin .content textarea {
-        border-bottom: solid rgb(196, 196, 196);
-    background-color: rgb(255, 255, 255);
-    flex-wrap: wrap;
-    max-width: 100%;
-    min-height: 300px;
-    resize: vertical;
-}
 
 .Admin .content button {
     flex-wrap: wrap;

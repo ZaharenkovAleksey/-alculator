@@ -1,4 +1,4 @@
-.CalculatorItem {
+.Item {
     border-bottom: solid rgb(196, 196, 196);
     max-width: 100%;
     flex-wrap: wrap;
@@ -8,7 +8,7 @@
     align-items: center;
 }
 
-.CalculatorItem .btn {
+.Item .btn {
     height: 20px;
 
     border-style: none;
@@ -25,7 +25,7 @@
     text-align: center;
 }
 
-.CalculatorItem p {
+.Item p {
     font-size: 20px;
 }
 

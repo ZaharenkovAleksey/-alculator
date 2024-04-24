@@ -1,4 +1,4 @@
-.InterfaceCalc {
+.Calc {
     min-height: calc(100vh - 70px - 70px);
     display: flex;
     flex-direction: column;
@@ -10,7 +10,7 @@
     flex-wrap: wrap;
 }
 
-.InterfaceCalc input {
+.Calc input {
     
     margin-bottom: 15px;
     padding: 10px;
@@ -25,7 +25,7 @@
     color: rgb(0, 0, 0);
 }
 
-.InterfaceCalc button {
+.Calc button {
     flex-wrap: wrap;
     max-width: 100%;
     border-radius: 10px;
@@ -41,7 +41,7 @@
 
 }
 
-.InterfaceCalc p {
+.Calc p {
     text-align: center;
     font-size: 20px;
 }
