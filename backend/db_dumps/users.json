@@ -1,7 +1,4 @@
 [{
-    "_id": {
-      "$oid": "658c83d5f82c308424f1a58b"
-    },
-    "login": "gavrilovegor519",
-    "password": "qwerty"
+    "login": "admin",
+    "password": "admin"
 }]
