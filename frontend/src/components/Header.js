@@ -31,9 +31,13 @@ function Header() {
   return (
     <div className='Header'>
         <Link className="HeaderLink" to="/">Калькуляторы</Link>
+        <Link className="HeaderLink" to="/Admin">Админ-панель</Link>
         <LogoutButton />
+        <img width="35px" src="https://www.tadviser.ru/images/5/5c/Альфа-Банк_ЛОГО.gif"></img>
+      
     </div>
   );
+
 }
 
 export default Header;
